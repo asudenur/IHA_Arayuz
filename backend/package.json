@@ -1,0 +1,25 @@
+{
+  "name": "iha-dashboard-backend",
+  "version": "1.0.0",
+  "description": "İHA telemetri verilerini işleyen backend sunucusu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "iha",
+    "telemetri",
+    "backend",
+    "firebase",
+    "mavlink"
+  ],
+  "author": "Asude",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^12.0.0",
+    "node-mavlink": "^2.0.8",
+    "node-rtsp-stream": "^0.0.9",
+    "ws": "^8.18.2"
+  }
+}
