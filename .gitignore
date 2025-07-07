@@ -11,6 +11,10 @@
 # production
 /build
 
+
+**/captivePortalConfig.json
+**/firebase-service-account.json
+
 # misc
 .DS_Store
 .env.local
